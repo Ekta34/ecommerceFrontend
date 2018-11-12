@@ -1,0 +1,31 @@
+.cartContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.cartHeader{
+    font-size: 16px;
+}
+
+.cartItem{
+    display: flex;
+    flex-direction: row;
+    margin-top:8px;
+}
+
+.proceed{
+    display: flex;
+    margin-top: 32px;
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.proceedText{
+    font-size: 16px;
+    color: white;
+}
